@@ -39,6 +39,7 @@ class HomeViewController: UIViewController, UITableViewDataSource,UITableViewDel
     ///Creating Club
     func showSafariVC(for url: String) {
         guard let url = URL(string: url) else {
+            
             //Show an invalid URL error alert
             return
         }
