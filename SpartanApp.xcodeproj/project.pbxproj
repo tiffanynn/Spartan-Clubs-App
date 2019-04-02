@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		960A39725201D6ABC78814C7 /* Pods_SpartanApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BAB83BE50C8BD8FA9B3AF0 /* Pods_SpartanApp.framework */; };
+		D8021220224DFD6D00C6E0B5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D802121F224DFD6D00C6E0B5 /* SignUpViewController.swift */; };
+		D8021222224DFD9800C6E0B5 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8021221224DFD9800C6E0B5 /* StartViewController.swift */; };
+		D833B449224D927B00A593AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D833B448224D927B00A593AC /* AppDelegate.swift */; };
+		D833B44E224D927B00A593AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D833B44C224D927B00A593AC /* Main.storyboard */; };
+		D833B450224D927D00A593AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D833B44F224D927D00A593AC /* Assets.xcassets */; };
+		D833B453224D927D00A593AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D833B451224D927D00A593AC /* LaunchScreen.storyboard */; };
+		D8562D97224DD0C6004D8909 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8562D96224DD0C6004D8909 /* LoginViewController.swift */; };
+		D8562D9B224DDFF1004D8909 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8562D9A224DDFF0004D8909 /* GoogleService-Info.plist */; };
+		D89B78B82253479000C2057A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89B78B72253479000C2057A /* HomeViewController.swift */; };
+		D89B78DC22535A3100C2057A /* AcademicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89B78DB22535A3100C2057A /* AcademicsViewController.swift */; };
+		D89B78DE22535AC300C2057A /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89B78DD22535AC300C2057A /* SocialViewController.swift */; };
+		D89B78E02253614C00C2057A /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89B78DF2253614C00C2057A /* SportsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38BAB83BE50C8BD8FA9B3AF0 /* Pods_SpartanApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpartanApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC37352FF097F3936BE3EFA /* Pods-SpartanApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpartanApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpartanApp/Pods-SpartanApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C4A9EF84FBD3B8566D3CC09D /* Pods-SpartanApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpartanApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpartanApp/Pods-SpartanApp.release.xcconfig"; sourceTree = "<group>"; };
+		D802121F224DFD6D00C6E0B5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D8021221224DFD9800C6E0B5 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		D833B445224D927B00A593AC /* SpartanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpartanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D833B448224D927B00A593AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D833B44D224D927B00A593AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D833B44F224D927D00A593AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D833B452224D927D00A593AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D833B454224D927D00A593AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8562D96224DD0C6004D8909 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D8562D9A224DDFF0004D8909 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D89B78B72253479000C2057A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D89B78DB22535A3100C2057A /* AcademicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademicsViewController.swift; sourceTree = "<group>"; };
+		D89B78DD22535AC300C2057A /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		D89B78DF2253614C00C2057A /* SportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D833B442224D927B00A593AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960A39725201D6ABC78814C7 /* Pods_SpartanApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		351C1EBD071D29DAFD748538 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DC37352FF097F3936BE3EFA /* Pods-SpartanApp.debug.xcconfig */,
+				C4A9EF84FBD3B8566D3CC09D /* Pods-SpartanApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D833B43C224D927B00A593AC = {
+			isa = PBXGroup;
+			children = (
+				D833B447224D927B00A593AC /* SpartanApp */,
+				D833B446224D927B00A593AC /* Products */,
+				351C1EBD071D29DAFD748538 /* Pods */,
+				F4081CA5B9AAB4681DADD103 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D833B446224D927B00A593AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D833B445224D927B00A593AC /* SpartanApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D833B447224D927B00A593AC /* SpartanApp */ = {
+			isa = PBXGroup;
+			children = (
+				D833B448224D927B00A593AC /* AppDelegate.swift */,
+				D833B44C224D927B00A593AC /* Main.storyboard */,
+				D833B44F224D927D00A593AC /* Assets.xcassets */,
+				D833B451224D927D00A593AC /* LaunchScreen.storyboard */,
+				D833B454224D927D00A593AC /* Info.plist */,
+				D8562D96224DD0C6004D8909 /* LoginViewController.swift */,
+				D8562D9A224DDFF0004D8909 /* GoogleService-Info.plist */,
+				D802121F224DFD6D00C6E0B5 /* SignUpViewController.swift */,
+				D8021221224DFD9800C6E0B5 /* StartViewController.swift */,
+				D89B78B72253479000C2057A /* HomeViewController.swift */,
+				D89B78DB22535A3100C2057A /* AcademicsViewController.swift */,
+				D89B78DD22535AC300C2057A /* SocialViewController.swift */,
+				D89B78DF2253614C00C2057A /* SportsViewController.swift */,
+			);
+			path = SpartanApp;
+			sourceTree = "<group>";
+		};
+		F4081CA5B9AAB4681DADD103 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38BAB83BE50C8BD8FA9B3AF0 /* Pods_SpartanApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D833B444224D927B00A593AC /* SpartanApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D833B457224D927D00A593AC /* Build configuration list for PBXNativeTarget "SpartanApp" */;
+			buildPhases = (
+				157ABC079CC0B014B2401D58 /* [CP] Check Pods Manifest.lock */,
+				D833B441224D927B00A593AC /* Sources */,
+				D833B442224D927B00A593AC /* Frameworks */,
+				D833B443224D927B00A593AC /* Resources */,
+				63FF75D120A54F3C9631B041 /* [CP] Embed Pods Frameworks */,
+				734AC19104F57BA31F59E753 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpartanApp;
+			productName = SpartanApp;
+			productReference = D833B445224D927B00A593AC /* SpartanApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D833B43D224D927B00A593AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nathan  Abegaz";
+				TargetAttributes = {
+					D833B444224D927B00A593AC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D833B440224D927B00A593AC /* Build configuration list for PBXProject "SpartanApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D833B43C224D927B00A593AC;
+			productRefGroup = D833B446224D927B00A593AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D833B444224D927B00A593AC /* SpartanApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D833B443224D927B00A593AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D833B453224D927D00A593AC /* LaunchScreen.storyboard in Resources */,
+				D8562D9B224DDFF1004D8909 /* GoogleService-Info.plist in Resources */,
+				D833B450224D927D00A593AC /* Assets.xcassets in Resources */,
+				D833B44E224D927B00A593AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		157ABC079CC0B014B2401D58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpartanApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63FF75D120A54F3C9631B041 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SpartanApp/Pods-SpartanApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpartanApp/Pods-SpartanApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		734AC19104F57BA31F59E753 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SpartanApp/Pods-SpartanApp-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpartanApp/Pods-SpartanApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D833B441224D927B00A593AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89B78B82253479000C2057A /* HomeViewController.swift in Sources */,
+				D8021222224DFD9800C6E0B5 /* StartViewController.swift in Sources */,
+				D89B78DE22535AC300C2057A /* SocialViewController.swift in Sources */,
+				D8562D97224DD0C6004D8909 /* LoginViewController.swift in Sources */,
+				D833B449224D927B00A593AC /* AppDelegate.swift in Sources */,
+				D8021220224DFD6D00C6E0B5 /* SignUpViewController.swift in Sources */,
+				D89B78DC22535A3100C2057A /* AcademicsViewController.swift in Sources */,
+				D89B78E02253614C00C2057A /* SportsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D833B44C224D927B00A593AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D833B44D224D927B00A593AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D833B451224D927D00A593AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D833B452224D927D00A593AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D833B455224D927D00A593AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D833B456224D927D00A593AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D833B458224D927D00A593AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC37352FF097F3936BE3EFA /* Pods-SpartanApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpartanApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanabegaz.SpartanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D833B459224D927D00A593AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A9EF84FBD3B8566D3CC09D /* Pods-SpartanApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpartanApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanabegaz.SpartanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D833B440224D927B00A593AC /* Build configuration list for PBXProject "SpartanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D833B455224D927D00A593AC /* Debug */,
+				D833B456224D927D00A593AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D833B457224D927D00A593AC /* Build configuration list for PBXNativeTarget "SpartanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D833B458224D927D00A593AC /* Debug */,
+				D833B459224D927D00A593AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D833B43D224D927B00A593AC /* Project object */;
+}
