@@ -12,12 +12,6 @@ The following functionality is completed:
    - [x] Log out
 - [x] User can get info about creating their own club
 
-- [x] Task 1
-- [x] Task 2
-  - [x] Subtask a
-  - [ ] Subtask b
-- [x] Task 3
-
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
