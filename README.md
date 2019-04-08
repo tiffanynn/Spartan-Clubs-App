@@ -10,6 +10,8 @@ The following functionality is completed:
 - [x] User can log in. 
    - [x] Stay logged in
    - [x] Log out
+- [x] View Club Categories
+- [x] View sample clubs list
 - [x] User can get info about creating their own club
 
 ## Video Walkthrough
