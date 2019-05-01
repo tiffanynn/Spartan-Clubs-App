@@ -54,6 +54,7 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (5.3.7):
     - GoogleUtilities/Logger
+  - GradientButtonSwift (1.0.2)
   - GTMSessionFetcher/Core (1.2.1)
   - nanopb (0.3.901):
     - nanopb/decode (= 0.3.901)
@@ -65,6 +66,7 @@ DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Core
   - FirebaseUI/Auth
+  - GradientButtonSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -77,6 +79,7 @@ SPEC REPOS:
     - FirebaseUI
     - GoogleAppMeasurement
     - GoogleUtilities
+    - GradientButtonSwift
     - GTMSessionFetcher
     - nanopb
 
@@ -90,9 +93,10 @@ SPEC CHECKSUMS:
   FirebaseUI: bf9c339b1ebea2df20396865cb47b7bf14b2f3a8
   GoogleAppMeasurement: 621f3bc6211d5ba548debe01fafad30cf5ab6859
   GoogleUtilities: 111a012f4c3a29c9e7c954c082fafd6ee3c999c0
+  GradientButtonSwift: b2231f7ccb0d2c817409ca20634f7a430876f7d5
   GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
 
-PODFILE CHECKSUM: dd0f85c8e5e871049ec7fcf86b8c69ecf1ff5fd1
+PODFILE CHECKSUM: 3256cfa6bbfecf9b92b233652f56610e6a7ee76c
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

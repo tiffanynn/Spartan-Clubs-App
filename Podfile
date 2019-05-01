@@ -9,8 +9,6 @@ target 'SpartanApp' do
 pod ‘Firebase/Auth’
 pod 'FirebaseUI/Auth'
 pod 'Firebase/Core'
-pod 'AFNetworking', '~>3.0'
-pod 'FBSDKCoreKit', '~> 4.9'
 pod 'GradientButtonSwift'
 
 end
