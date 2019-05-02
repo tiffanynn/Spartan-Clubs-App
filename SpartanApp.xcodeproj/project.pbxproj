@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		960A39725201D6ABC78814C7 /* Pods_SpartanApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BAB83BE50C8BD8FA9B3AF0 /* Pods_SpartanApp.framework */; };
+		C6FF2965227A5D350009653A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6FF2964227A5D350009653A /* GoogleService-Info.plist */; };
 		D8021220224DFD6D00C6E0B5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D802121F224DFD6D00C6E0B5 /* SignUpViewController.swift */; };
 		D8021222224DFD9800C6E0B5 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8021221224DFD9800C6E0B5 /* StartViewController.swift */; };
 		D833B449224D927B00A593AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D833B448224D927B00A593AC /* AppDelegate.swift */; };
@@ -15,7 +16,6 @@
 		D833B450224D927D00A593AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D833B44F224D927D00A593AC /* Assets.xcassets */; };
 		D833B453224D927D00A593AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D833B451224D927D00A593AC /* LaunchScreen.storyboard */; };
 		D8562D97224DD0C6004D8909 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8562D96224DD0C6004D8909 /* LoginViewController.swift */; };
-		D8562D9B224DDFF1004D8909 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8562D9A224DDFF0004D8909 /* GoogleService-Info.plist */; };
 		D89B78B82253479000C2057A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89B78B72253479000C2057A /* HomeViewController.swift */; };
 		D89B78DC22535A3100C2057A /* AcademicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89B78DB22535A3100C2057A /* AcademicsViewController.swift */; };
 		D89B78DE22535AC300C2057A /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89B78DD22535AC300C2057A /* SocialViewController.swift */; };
@@ -27,6 +27,7 @@
 		38BAB83BE50C8BD8FA9B3AF0 /* Pods_SpartanApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpartanApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC37352FF097F3936BE3EFA /* Pods-SpartanApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpartanApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpartanApp/Pods-SpartanApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C4A9EF84FBD3B8566D3CC09D /* Pods-SpartanApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpartanApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpartanApp/Pods-SpartanApp.release.xcconfig"; sourceTree = "<group>"; };
+		C6FF2964227A5D350009653A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D802121F224DFD6D00C6E0B5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D8021221224DFD9800C6E0B5 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		D833B445224D927B00A593AC /* SpartanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpartanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,7 +37,6 @@
 		D833B452224D927D00A593AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D833B454224D927D00A593AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8562D96224DD0C6004D8909 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		D8562D9A224DDFF0004D8909 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D89B78B72253479000C2057A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D89B78DB22535A3100C2057A /* AcademicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademicsViewController.swift; sourceTree = "<group>"; };
 		D89B78DD22535AC300C2057A /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 				D833B451224D927D00A593AC /* LaunchScreen.storyboard */,
 				D833B454224D927D00A593AC /* Info.plist */,
 				D8562D96224DD0C6004D8909 /* LoginViewController.swift */,
-				D8562D9A224DDFF0004D8909 /* GoogleService-Info.plist */,
+				C6FF2964227A5D350009653A /* GoogleService-Info.plist */,
 				D802121F224DFD6D00C6E0B5 /* SignUpViewController.swift */,
 				D8021221224DFD9800C6E0B5 /* StartViewController.swift */,
 				D89B78B72253479000C2057A /* HomeViewController.swift */,
@@ -174,7 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D833B453224D927D00A593AC /* LaunchScreen.storyboard in Resources */,
-				D8562D9B224DDFF1004D8909 /* GoogleService-Info.plist in Resources */,
+				C6FF2965227A5D350009653A /* GoogleService-Info.plist in Resources */,
 				D833B450224D927D00A593AC /* Assets.xcassets in Resources */,
 				D833B44E224D927B00A593AC /* Main.storyboard in Resources */,
 			);
@@ -213,9 +213,10 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SpartanApp/Pods-SpartanApp-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SpartanApp/Pods-SpartanApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/GradientButtonSwift/GradientButtonSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -224,11 +225,12 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GradientButtonSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpartanApp/Pods-SpartanApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpartanApp/Pods-SpartanApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		734AC19104F57BA31F59E753 /* [CP] Copy Pods Resources */ = {
@@ -239,7 +241,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SpartanApp/Pods-SpartanApp-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SpartanApp/Pods-SpartanApp-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -250,7 +252,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpartanApp/Pods-SpartanApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpartanApp/Pods-SpartanApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
