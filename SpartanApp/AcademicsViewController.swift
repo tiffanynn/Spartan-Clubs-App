@@ -11,7 +11,7 @@ import UIKit
 class AcademicsViewController: UIViewController, UITableViewDataSource,UITableViewDelegate {
     
     
-    let clubCategories: [String] = ["Biology Club","Buisness Club","Computer Engineering Club", "Robotics", "Math Club", "Coding Club", "Tutoring Club"]
+    let clubCategories: [String] = ["Biology Club","Business Club", "Computer Science Club","Debate Club", "Math Club", "Robotics", "Tutoring Club"]
     let segues: [String] = ["engineering"]
     
     override func viewDidLoad() {

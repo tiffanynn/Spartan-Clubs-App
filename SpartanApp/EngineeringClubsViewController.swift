@@ -13,7 +13,7 @@ class EngineeringClubsViewController:UIViewController, UITableViewDataSource,UIT
 
     let segues: [String] = ["AerospaceSegue","CivilSegue","ComputerSegue", "RoboticsSegue"]
 
-   let engineeringClubs: [String] = ["Aerospace Engineering Club","Civil Engineering Club","Computer and Software Engineering Club","Robotics"]
+   let engineeringClubs: [String] = ["Aerospace Engineering Club","Civil Engineering Club","Formula SAE", "Society of Computer and Software Engineering","Robotics"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

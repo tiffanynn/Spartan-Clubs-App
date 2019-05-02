@@ -10,7 +10,7 @@ import UIKit
 
 class SportsViewController: UIViewController, UITableViewDataSource,UITableViewDelegate {
     
-    let sports: [String] = ["Soocer","BasketBall","Flag Football","Badminton", "Tennis", "Golf"]
+    let sports: [String] = ["BasketBall", "Badminton", "Dragon Boat", "Flag Football", "Golf", "Swimming", "Soccer", "Tennis", "Volleyball"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
