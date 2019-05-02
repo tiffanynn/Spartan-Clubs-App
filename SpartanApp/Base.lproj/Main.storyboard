@@ -10,6 +10,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Sweet Hipster.ttf">
+            <string>Sweet-Hipster</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Start View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -70,10 +75,10 @@
                                         <rect key="frame" x="2" y="-72" width="261" height="203"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spartan Clubs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O24-gW-zJ8">
-                                        <rect key="frame" x="34" y="171" width="248" height="37"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spartan Clubs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O24-gW-zJ8">
+                                        <rect key="frame" x="-1" y="164" width="272" height="97"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="30"/>
+                                        <fontDescription key="fontDescription" name="Sweet-Hipster" family="Sweet Hipster" pointSize="60"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -92,6 +97,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="rmZ-vP-dJ0"/>
                     <connections>
+                        <outlet property="Title" destination="O24-gW-zJ8" id="OD9-O6-d6N"/>
+                        <outlet property="main_title" destination="O24-gW-zJ8" id="Qa7-Pu-gJn"/>
                         <segue destination="Mj9-6B-KlF" kind="presentation" identifier="homePageSegue" id="EqJ-7o-MqL"/>
                         <segue destination="rJs-ZM-ky2" kind="show" identifier="signUp1" id="UPY-rY-1ax"/>
                         <segue destination="1rP-8a-8Z7" kind="show" identifier="LoginViewController1" id="iay-6D-EbN"/>
