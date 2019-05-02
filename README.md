@@ -1,4 +1,4 @@
-# Spartan-Clubs-App
+# Spartan Clubs App
 CMPE 131: iOS app that will help navigate SJSU students to clubs on campus that interest them.
 
 ## User Stories
