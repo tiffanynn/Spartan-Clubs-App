@@ -18,7 +18,6 @@ class StartViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBOutlet weak var main_title: UILabel!
     
     @IBAction func loginButton(_ sender: Any) {
         performSegue(withIdentifier: "LoginViewController1", sender: self)
