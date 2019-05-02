@@ -36,6 +36,10 @@ class HomeViewController: UIViewController, UITableViewDataSource,UITableViewDel
         self.performSegue(withIdentifier: segues[indexPath.row], sender: nil)
     }
 
+    
+    
+    
+    
     ///Creating Club
     func showSafariVC(for url: String) {
         guard let url = URL(string: url) else {
