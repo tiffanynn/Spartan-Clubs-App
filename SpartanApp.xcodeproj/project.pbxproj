@@ -213,7 +213,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SpartanApp/Pods-SpartanApp-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-SpartanApp/Pods-SpartanApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/GradientButtonSwift/GradientButtonSwift.framework",
@@ -230,7 +230,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpartanApp/Pods-SpartanApp-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpartanApp/Pods-SpartanApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		734AC19104F57BA31F59E753 /* [CP] Copy Pods Resources */ = {
@@ -241,7 +241,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SpartanApp/Pods-SpartanApp-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-SpartanApp/Pods-SpartanApp-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -252,7 +252,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpartanApp/Pods-SpartanApp-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpartanApp/Pods-SpartanApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
