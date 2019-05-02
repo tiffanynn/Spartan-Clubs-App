@@ -12,7 +12,7 @@ class AcademicsViewController: UIViewController, UITableViewDataSource,UITableVi
     
     
     let clubCategories: [String] = ["Biology Club","Business Club", "Computer Science Club","Debate Club", "Math Club", "Robotics", "Tutoring Club"]
-    let segues: [String] = ["engineering"]
+    let segues: [String] = ["bio"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,13 +31,12 @@ class AcademicsViewController: UIViewController, UITableViewDataSource,UITableVi
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.performSegue(withIdentifier: segues[indexPath.row], sender: nil)
-        print(segues[indexPath.row])
+        self.performSegue(withIdentifier: "bio", sender: nil)
     }
     
-    
+ 
     @IBAction func transition(_ sender: Any) {
-        self.performSegue(withIdentifier: "engineering", sender: nil)
+        self.performSegue(withIdentifier: "bio", sender: nil)
     }
     
 }

@@ -20,7 +20,6 @@
 		D89B78DC22535A3100C2057A /* AcademicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89B78DB22535A3100C2057A /* AcademicsViewController.swift */; };
 		D89B78DE22535AC300C2057A /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89B78DD22535AC300C2057A /* SocialViewController.swift */; };
 		D89B78E02253614C00C2057A /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89B78DF2253614C00C2057A /* SportsViewController.swift */; };
-		D8E0075E2277B93100C85EBD /* EngineeringClubsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E0075D2277B93100C85EBD /* EngineeringClubsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +40,6 @@
 		D89B78DB22535A3100C2057A /* AcademicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademicsViewController.swift; sourceTree = "<group>"; };
 		D89B78DD22535AC300C2057A /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
 		D89B78DF2253614C00C2057A /* SportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
-		D8E0075D2277B93100C85EBD /* EngineeringClubsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineeringClubsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +97,6 @@
 				D89B78DB22535A3100C2057A /* AcademicsViewController.swift */,
 				D89B78DD22535AC300C2057A /* SocialViewController.swift */,
 				D89B78DF2253614C00C2057A /* SportsViewController.swift */,
-				D8E0075D2277B93100C85EBD /* EngineeringClubsViewController.swift */,
 			);
 			path = SpartanApp;
 			sourceTree = "<group>";
@@ -269,7 +266,6 @@
 				D833B449224D927B00A593AC /* AppDelegate.swift in Sources */,
 				D8021220224DFD6D00C6E0B5 /* SignUpViewController.swift in Sources */,
 				D89B78DC22535A3100C2057A /* AcademicsViewController.swift in Sources */,
-				D8E0075E2277B93100C85EBD /* EngineeringClubsViewController.swift in Sources */,
 				D89B78E02253614C00C2057A /* SportsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

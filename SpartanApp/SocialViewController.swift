@@ -10,7 +10,7 @@ import UIKit
 
 class SocialViewController:UIViewController, UITableViewDataSource,UITableViewDelegate {
     
-    let social: [String] = ["Volunteering" ,"Sororities","Fraternities"]
+    let social: [String] = ["Biking Club" ,"Sororities","Fraternities"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

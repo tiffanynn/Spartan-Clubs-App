@@ -6,6 +6,11 @@
 //  Copyright © 2019 Nathan  Abegaz. All rights reserved.
 //
 
+
+// Login class that handles the user login and sign in information
+// Connects with firebase to handle
+
+
 import UIKit
 import FirebaseUI
 import GradientButtonSwift
