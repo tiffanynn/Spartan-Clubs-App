@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		960A39725201D6ABC78814C7 /* Pods_SpartanApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BAB83BE50C8BD8FA9B3AF0 /* Pods_SpartanApp.framework */; };
+		C64C0F6E227B5D530067896D /* Adinda.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C64C0F6D227B5D530067896D /* Adinda.ttf */; };
+		C64C0F72227B62D90067896D /* Sweet Hipster.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C64C0F71227B62D90067896D /* Sweet Hipster.ttf */; };
 		C6FF2965227A5D350009653A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6FF2964227A5D350009653A /* GoogleService-Info.plist */; };
 		D8021220224DFD6D00C6E0B5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D802121F224DFD6D00C6E0B5 /* SignUpViewController.swift */; };
 		D8021222224DFD9800C6E0B5 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8021221224DFD9800C6E0B5 /* StartViewController.swift */; };
@@ -26,6 +28,8 @@
 		38BAB83BE50C8BD8FA9B3AF0 /* Pods_SpartanApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpartanApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC37352FF097F3936BE3EFA /* Pods-SpartanApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpartanApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpartanApp/Pods-SpartanApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C4A9EF84FBD3B8566D3CC09D /* Pods-SpartanApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpartanApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpartanApp/Pods-SpartanApp.release.xcconfig"; sourceTree = "<group>"; };
+		C64C0F6D227B5D530067896D /* Adinda.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Adinda.ttf; sourceTree = "<group>"; };
+		C64C0F71227B62D90067896D /* Sweet Hipster.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sweet Hipster.ttf"; sourceTree = "<group>"; };
 		C6FF2964227A5D350009653A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D802121F224DFD6D00C6E0B5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D8021221224DFD9800C6E0B5 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +70,7 @@
 		D833B43C224D927B00A593AC = {
 			isa = PBXGroup;
 			children = (
+				C64C0F6D227B5D530067896D /* Adinda.ttf */,
 				D833B447224D927B00A593AC /* SpartanApp */,
 				D833B446224D927B00A593AC /* Products */,
 				351C1EBD071D29DAFD748538 /* Pods */,
@@ -86,6 +91,7 @@
 			children = (
 				D833B448224D927B00A593AC /* AppDelegate.swift */,
 				D833B44C224D927B00A593AC /* Main.storyboard */,
+				C64C0F71227B62D90067896D /* Sweet Hipster.ttf */,
 				D833B44F224D927D00A593AC /* Assets.xcassets */,
 				D833B451224D927D00A593AC /* LaunchScreen.storyboard */,
 				D833B454224D927D00A593AC /* Info.plist */,
@@ -170,9 +176,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64C0F6E227B5D530067896D /* Adinda.ttf in Resources */,
 				D833B453224D927D00A593AC /* LaunchScreen.storyboard in Resources */,
 				C6FF2965227A5D350009653A /* GoogleService-Info.plist in Resources */,
 				D833B450224D927D00A593AC /* Assets.xcassets in Resources */,
+				C64C0F72227B62D90067896D /* Sweet Hipster.ttf in Resources */,
 				D833B44E224D927B00A593AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
